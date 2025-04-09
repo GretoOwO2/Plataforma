@@ -1,0 +1,32 @@
+# Configuración principal del plugin
+
+platformMaterial: LIME_CONCRETE
+selectionTool: BLAZE_ROD
+
+defaultTimerDuration: 60
+defaultCooldownTime: 30
+defaultPlayerLimit: 0
+defaultTeleportDestination: ""
+
+particleArmor:
+  enabled: true
+  particle: SPELL_WITCH
+  count: 10
+  offsetX: 0.5
+  offsetY: 1.0
+  offsetZ: 0.5
+  speed: 0.1
+
+holograms:
+  counter:
+    offsetX: 0.0
+    offsetY: 2.0
+    offsetZ: 0.0
+  timer:
+    offsetX: 0.0
+    offsetY: 0.5
+    offsetZ: 0.0
+  cooldown:
+    offsetX: 0.0
+    offsetY: 3.0
+    offsetZ: 0.0

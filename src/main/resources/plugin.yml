@@ -1,0 +1,15 @@
+name: plataforma
+version: '4.0-SNAPSHOT'
+main: org.tuplugin.plataforma.PlatformPlugin
+api-version: 1.13
+description: Plugin para crear y gestionar plataformas personalizables con soporte multiidioma.
+
+commands:
+  platform:
+    description: "Gestiona las plataformas: tool, create, remove, limit, destination, cooldown, particle, timer, wiki, list"
+    usage: "/platform <subcomando>"
+
+permissions:
+  platform.admin:
+    description: "Permite usar los comandos del plugin"
+    default: op
